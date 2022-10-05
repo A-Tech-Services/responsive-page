@@ -126,7 +126,7 @@ li{
         height: 100%;
         text-align: center;
         transition: 0.3s ease;
-        background-color: rgba(8, 8, 133, 0.911);
+        background-color: rgba(0, 0, 0, 0.911);
     }
 
     .hamburger{
