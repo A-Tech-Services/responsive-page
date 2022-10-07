@@ -33,18 +33,26 @@ color: rgb(2, 2, 78);
     display: none;
 }
 
+#navbar{
+    display: flex;
+    list-style-type: none;
+    margin: 0px 16px 0px 0px; 
+}
+
 #navbar li a{
     padding: 2em;
     transition: 1s ease;
 }
 
-#navbar li a:hover{
+#navbar li:hover{
     color: rgb(141, 6, 6);
 }
 
 .nav-item.active{
     color: rgb(141, 6, 6);
+    font-weight: 600;
 }
+
 
 
 
