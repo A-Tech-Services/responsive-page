@@ -36,7 +36,7 @@ color: rgb(2, 2, 78);
 #navbar{
     display: flex;
     list-style-type: none;
-    margin: 0px 16px 0px 0px; 
+    margin: 0px 16px 0px 0px;
 }
 
 #navbar li a{
@@ -51,6 +51,55 @@ color: rgb(2, 2, 78);
 .nav-item.active{
     color: rgb(141, 6, 6);
     font-weight: 600;
+}
+
+.hContentHead{
+    background-color: rgba(141, 6, 6, 0.445);
+}
+
+.intro{
+    font-size: 12px;
+    color: rgb(255, 217, 217);
+    border: 1px solid rgb(141, 6, 6);
+    border-radius: 15px;
+    max-width: 9rem;
+    padding: 8px;
+    text-align: center;
+}
+
+.hContent h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.para{
+    color: rgb(255, 217, 217);
+    font-weight: 600;
+    max-width: 30em;
+}
+
+.hContent button{
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    background-color: rgb(141, 6, 6);
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(141, 6, 6, 0.274);
+    transition: 1s ease;
+}
+
+.hContent button:hover{
+    background-color: transparent;
+    border: 1px solid rgb(141, 6, 6);
+}
+
+.myDP{
+    z-index: -1;
+    width: 350px;
 }
 
 
@@ -76,4 +125,30 @@ color: rgb(2, 2, 78);
         cursor: pointer;
     }
     
+    .intro{
+        display: none;
+    }
+
+    .hContent h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .para{
+        text-align: center;
+    }
+    
+    .hContent .button{
+        text-align: center;
+        margin-bottom: 3em;
+    }
+ 
+}
+
+
+
+@media(max-width: 355px){
+    .myDP{
+        max-width: 100%;
+    }
 }
