@@ -30,6 +30,7 @@ color: rgb(2, 2, 78);
 .hamburger{
     font-size: 1.5rem;
     cursor: pointer;
+    display: none;
 }
 
 #navbar li a{
@@ -39,4 +40,32 @@ color: rgb(2, 2, 78);
 
 #navbar li a:hover{
     color: rgb(141, 6, 6);
+}
+
+.nav-item.active{
+    color: rgb(141, 6, 6);
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px){
+    #navbar{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger-close{
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
 }
