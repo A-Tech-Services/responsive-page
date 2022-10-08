@@ -198,10 +198,6 @@ html{
         font-size: 1.5rem;
         cursor: pointer;
     }
-
-    .offcanvas-end.down{
-        display: none;
-    }
     
     .intro{
         display: none;
