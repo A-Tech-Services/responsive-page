@@ -171,6 +171,36 @@ html{
 .ServCol{
     margin-top: 5em;
 }
+#portfolio{
+    margin-bottom: 8em;
+}
+
+#portfolio h1{
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+
+.cons{
+   font-weight: 600;
+   color: rgb(141, 6, 6);
+   transition: 1s;
+   cursor: pointer;
+}
+
+.cons:hover{
+    color: rgba(141, 6, 6, 0.445);
+ }
+
+.portfolio-menu{
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.foliogrid{
+    margin: 0 auto;
+
+}
 
 
 
@@ -235,11 +265,21 @@ html{
         margin: 2em 0;
     }
 
-    
+    .portfolio-menu{
+        margin: 0 auto;
+    }
+
+    .cons{
+        font-size: 15px;
+     }
  
 }
 
-
+@media(max-width: 465px){
+    .cons{
+        font-size: 10px;
+     }
+}
 
 @media(max-width: 355px){
     .myDP{
