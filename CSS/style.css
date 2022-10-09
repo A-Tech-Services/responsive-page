@@ -171,6 +171,7 @@ html{
 .ServCol{
     margin-top: 5em;
 }
+
 #portfolio{
     margin-bottom: 8em;
 }
@@ -179,7 +180,6 @@ html{
     font-weight: 700;
     margin-bottom: 1em;
 }
-
 
 .cons{
    font-weight: 600;
@@ -197,10 +197,7 @@ html{
     margin-bottom: 2em;
 }
 
-.foliogrid{
-    margin: 0 auto;
 
-}
 
 
 
@@ -272,6 +269,11 @@ html{
     .cons{
         font-size: 15px;
      }
+
+    .folio{
+    margin-top: 2em;
+    align-items: center;
+    }
  
 }
 
