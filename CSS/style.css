@@ -192,10 +192,6 @@ html{
     color: rgba(141, 6, 6, 0.445);
  }
 
- .con2{
-    color: rgba(141, 6, 6, 0.445);
- }
-
 .portfolio-menu{
     margin: 0 auto;
     margin-bottom: 2em;
@@ -203,6 +199,34 @@ html{
 
 .allfolio{
     display: none;
+}
+
+.uiux{
+    display: none;
+}
+
+.graphics{
+    display: none;
+}
+
+.frontend.down{
+    display: none;
+}
+
+.uiux.active{
+    display: block;
+}
+
+.graphics.active{
+    display: block;
+}
+
+.allfolio.active{
+    display: block;
+}
+
+.graphics.active{
+    display: block;
 }
 
 .porimg{
