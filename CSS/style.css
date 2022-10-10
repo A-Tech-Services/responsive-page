@@ -15,6 +15,17 @@ html{
     scroll-behavior: smooth;
 }
 
+.card-body a{
+    background-color: rgb(141, 6, 6);
+    color: #fff;
+    border: none;
+}
+
+.card-body a:hover{
+    background-color: rgba(141, 6, 6, 0.445);
+    color: #fff;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -43,8 +54,8 @@ html{
     margin: 0px 16px 0px 0px;
 }
 
-#navbar li a{
-    padding: 2em;
+#navbar li{
+    padding: 1.3em;
     transition: 1s ease;
 }
 
@@ -107,7 +118,8 @@ html{
 }
 
 #about{
-    margin-top: 8em;
+    margin-top: 10em;
+    padding: 5em;
 }
 
 .head{
@@ -153,7 +165,7 @@ html{
     background-color: rgb(240, 240, 240);
     margin-top: 8em;
     margin-bottom: 8em;
-    padding: 4em;
+    padding: 5em;
 }
 
 #service h1{
@@ -174,6 +186,7 @@ html{
 
 #portfolio{
     margin-bottom: 8em;
+    padding: 5em;
 }
 
 #portfolio h1{
@@ -186,6 +199,22 @@ html{
    color: rgb(141, 6, 6);
    transition: 1s;
    cursor: pointer;
+}
+
+.con1.active{
+    color: rgba(141, 6, 6, 0.445);
+}
+
+.con2.active{
+    color: rgba(141, 6, 6, 0.445);
+}
+
+.con3.active{
+    color: rgba(141, 6, 6, 0.445);
+}
+
+.con4.active{
+    color: rgba(141, 6, 6, 0.445);
 }
 
 .cons:hover{
@@ -229,9 +258,9 @@ html{
     display: block;
 }
 
-.porimg{
-    border: 2px solid;
-}
+/* .porimg{
+    
+} */
 
 .chead{
     margin-bottom: 8em;
@@ -266,6 +295,10 @@ html{
     border-radius: 8px;
     margin-top: 2em;
     justify-items: center;
+}
+
+.contactme button:hover{
+    background-color: rgb(148, 42, 42);
 }
 
 .footer{

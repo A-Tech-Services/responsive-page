@@ -9,6 +9,8 @@ let Menu2 = document.querySelector(".con2");
 let Menu3 = document.querySelector(".con3");
 let Menu4 = document.querySelector(".con4");
 
+let allMenu = Array.from(document.getElementsByClassName("cons"));
+
 NavItem.forEach(nav =>{
     nav.addEventListener("click", () =>{
         let navBarClick = document.querySelector(".active");
@@ -17,8 +19,20 @@ NavItem.forEach(nav =>{
     });
 });
 
+// allMenu.forEach(menu =>{
+//     nav.addEventListener("click", () =>{
+//         let menuClick = document.querySelector(".active");
+//         menuClick?.classList.remove("active");
+//         menu.classList.add("active");
+//     });
+// });
+
 
 Menu1.addEventListener("click", ()=>{
+    Menu1.classList.add("active");
+    Menu2.classList.remove("active");
+    Menu3.classList.remove("active");
+    Menu4.classList.remove("active");
     allFolio.classList.add("active");
     uiux.classList.remove("active");
     frontEnd.classList.add("down");
@@ -26,6 +40,10 @@ Menu1.addEventListener("click", ()=>{
 })
 
 Menu2.addEventListener("click", ()=>{
+    Menu1.classList.remove("active");
+    Menu2.classList.add("active");
+    Menu3.classList.remove("active");
+    Menu4.classList.remove("active");
     allFolio.classList.remove("active");
     uiux.classList.remove("active");
     frontEnd.classList.remove("down");
@@ -33,6 +51,10 @@ Menu2.addEventListener("click", ()=>{
 })
 
 Menu3.addEventListener("click", ()=>{
+    Menu1.classList.remove("active");
+    Menu2.classList.remove("active");
+    Menu3.classList.add("active");
+    Menu4.classList.remove("active");
     allFolio.classList.remove("active");
     uiux.classList.add("active");
     frontEnd.classList.add("down");
@@ -40,6 +62,10 @@ Menu3.addEventListener("click", ()=>{
 })
 
 Menu4.addEventListener("click", ()=>{
+    Menu1.classList.remove("active");
+    Menu2.classList.remove("active");
+    Menu3.classList.remove("active");
+    Menu4.classList.add("active");
     allFolio.classList.remove("active");
     uiux.classList.remove("active");
     frontEnd.classList.add("down");
